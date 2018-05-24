@@ -65,10 +65,6 @@ Create a pull request by pressing the New Pull Request button and add some comme
 When the Pull Request has been accepted or other changes happened to the main repository (always good to do before starting to work every day), you need to fetch the remote changes locally.
 
 ```bash
-git fetch upstream
-```
-
-```bash
-git rebase upstream/master
+git pull upstream master
 ```
 
